@@ -1,0 +1,65 @@
+<div class="collapse navbar-collapse" id="main-nav">
+    <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Signage
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                <a href="" class="dropdown-item">By Price</a>
+                <a href="" class="dropdown-item ">By Rating</a>
+                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item">Signage</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Construction and Site Supplies
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                <a href="{% url 'products' %}?category=abrasives" class="dropdown-item">Abrasives</a>
+                <a href="{% url 'products' %}?category=access_equipment" class="dropdown-item">Access Equipment</a>
+                <a href="{% url 'products' %}?category=air_tools" class="dropdown-item">Air Tools</a>
+                <a href="{% url 'products' %}?category=automotive" class="dropdown-item">Automotive</a>
+                <a href="{% url 'products' %}?category=flooring" class="dropdown-item">Flooring</a>
+                <a href="{% url 'products' %}?category=general_supps" class="dropdown-item">General Supplies</a>
+                <a href="{% url 'products' %}?category=hand_tools" class="dropdown-item">Hand Tools</a>
+                <a href="{% url 'products' %}?category=heaters" class="dropdown-item">Heaters & Fans</a>
+                <a href="{% url 'products' %}?category=power_tools" class="dropdown-item">Power Tools</a>
+                
+               
+               
+
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Personal Protective Equipment
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+                <a href="{% url 'products' %}?category=boots" class="dropdown-item">Boots</a>
+                <a href="{% url 'products' %}?category=ear_protection" class="dropdown-item">Ear Protection</a>
+                <a href="{% url 'products' %}?category=glasses" class="dropdown-item">Eye Protection</a>
+                <a href="{% url 'products' %}?category=gloves" class="dropdown-item">Gloves</a>
+                <a href="{% url 'products' %}?category=hi_viz" class="dropdown-item">Hi-viz</a>
+                <a href="{% url 'products' %}?category=overalls" class="dropdown-item">Overalls</a>
+                <a href="{% url 'products' %}?category=masks" class="dropdown-item">Masks</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Road Safety Equipment
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+                <a href="{% url 'products' %}?category=barrier" class="dropdown-item">Barriers</a>
+                <a href="{% url 'products' %}?category=bollards" class="dropdown-item">Bollards</a>
+                <a href="{% url 'products' %}?category=cones" class="dropdown-item">Cones</a>
+                <a href="{% url 'products' %}?category=covers" class="dropdown-item">Ramps</a>
+                <a href="{% url 'products' %}?category=street_furniture" class="dropdown-item">Street Furniture</a>
+                
+            </div>
+        </li>
+    </ul>
+</div>
